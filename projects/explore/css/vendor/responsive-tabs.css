@@ -1,0 +1,79 @@
+.r-tabs .r-tabs-panel {
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+
+}
+
+.r-tabs-accordion-title .r-tabs-anchor {
+  position: relative;
+  display: block;
+      background-color: red;
+  padding: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  cursor: pointer;
+
+  background-color: #009688;
+  transition: all .2s;
+}
+
+.r-tabs-accordion-title .r-tabs-anchor::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+
+  margin-top: -5px;
+
+  border: 10px solid #fff;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  transition: transform .3s;
+}
+
+.r-tabs-state-active .r-tabs-anchor::before {
+  transform: rotate(180deg);
+}
+
+.r-tabs-accordion-title:not(.r-tabs-state-active ) .r-tabs-anchor:hover {
+  background-color: #068073;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: flex;
+}
+/*
+
+*/
+.r-tabs-state-active .r-tabs-anchor {
+  color: #000;
+
+  border-bottom: 5px solid #fe5981;
+}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+
+    .r-tabs-state-active .r-tabs-anchor {
+      color: #fff;
+
+      background-color: #068073;
+      border-bottom: none;
+  }
+}

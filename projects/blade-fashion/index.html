@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade agency</title>
+
+    <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2"
+          crossorigin>
+    <link rel="preload" href="fonts/lato-regular.woff2" as="font"
+          type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/playfair-display-black.woff2" as="font"
+          type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/playfair-display-bold.woff2" as="font"
+          type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="nojs">
+    <header class="main-header">
+      <div class="main-header__container">
+        <div class="main-header__title">
+          <div class="main-header__logo">
+            <img src="img/blade.svg" alt="Blade" width="180" height="42">
+          </div>
+          <a href="#" class="main-header__hashtag hashtag">#bladefashion2019</a>
+        </div>
+        <button class="main-header__btn" type="button"
+                aria-label="Открыть меню">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="main-header__wrapper">
+          <nav class="main-header__main-nav main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#preview"
+                   class="main-nav__link main-nav__link--active">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#participants" class="main-nav__link">Участники</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#jury" class="main-nav__link">Жюри</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#tickets" class="main-nav__link">Билеты</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#contacts" class="main-nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="main-header__lang-selection lang-selection">
+            <button class="lang-selection__title" type="button">рус</button>
+            <ul class="lang-selection__list">
+              <li class="lang-selection__item lang-selection__item--active">
+                <input type="radio" name="lang" id="rus" value="рус" checked>
+                <label for="rus">рус</label>
+              </li>
+              <li class="lang-selection__item">
+                <input type="radio" name="lang" id="en" value="англ">
+                <label for="en">англ</label>
+              </li>
+            </ul>
+          </div>
+          <ul class="main-header__social-list social-list">
+            <li class="social-list__item">
+              <a href="#" class="social-list__link" aria-label="Наш фейсбук">
+                <svg width="44" height="44" viewBox="0 0 44 44">
+                  <use xlink:href="./img/icons.svg#icon-fb" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link" aria-label="Наш инстаграмм">
+                <svg width="44" height="44" viewBox="0 0 44 44">
+                  <use xlink:href="./img/icons.svg#icon-insta" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link" aria-label="Наш твиттер">
+                <svg width="44" height="44" viewBox="0 0 44 44">
+                  <use xlink:href="./img/icons.svg#icon-twitter" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="preview" id="preview" data-block="preview">
+        <div class="preview__wrapper">
+          <div class="preview__text-block">
+            <a href="#"
+               class="preview__hashtag hashtag hashtag--preview">#bladefashion2019</a>
+            <h1>Показ лучших молодых дизайнеров России</h1>
+            <ul class="preview__info preview-info">
+              <li class="preview-info__item preview-info__item--calendar">
+                <time datetime="2019-11-18T12:30">18 ноября 12<sup>30</sup> -
+                  20<sup>00</sup></time>
+              </li>
+              <li class="preview-info__item preview-info__item--location">
+                <p>Москва<br>Лофт-центр &laquo;Эдем&raquo;</p>
+              </li>
+              <li class="preview-info__item preview-info__item--present">
+                <p>Победитель едет<br>на показ Blade в Париж!</p>
+              </li>
+            </ul>
+            <a href="#tickets" class="preview__btn">Бронь билета</a>
+            <ul class="preview__social-list social-list">
+              <li class="social-list__item">
+                <a href="#" class="social-list__link" aria-label="Наш фейсбук">
+                  <svg width="44" height="44" viewBox="0 0 44 44">
+                    <use xlink:href="./img/icons.svg#icon-fb" />
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link"
+                   aria-label="Наш инстаграмм">
+                  <svg width="44" height="44" viewBox="0 0 44 44">
+                    <use xlink:href="./img/icons.svg#icon-insta" />
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link" aria-label="Наш твиттер">
+                  <svg width="44" height="44" viewBox="0 0 44 44">
+                    <use xlink:href="./img/icons.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="number number--preview">
+            <div class="number__wrapper">
+              <div class="number__count">
+                <span class="number__numeral number__numeral--active">01</span>
+                <span class="number__numeral">/</span>
+                <span class="number__numeral">05</span>
+              </div>
+              <div class="number__toggles">
+                <a class="number__toggle number__toggle--left"
+                   href="#participants"></a>
+                <a class="number__toggle number__toggle--right"
+                   aria-label="следующий блок"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="preview__img">
+          <picture>
+            <source type="image/webp" media="(min-width: 1024px)"
+                    srcset="img/main-background-desktop@1x.webp 1x, img/main-background-desktop@2x.webp 2x">
+            <source type="image/webp"
+                    srcset="img/main-background-tablet@1x.webp 1x, img/main-background-tablet@2x.webp 2x">
+            <source media="(min-width: 1024px)"
+                    srcset="img/main-background-desktop@1x.png 1x, img/main-background-desktop@2x.png 2x">
+            <img src="img/main-background-tablet@1x.png"
+                 srcset="img/main-background-tablet@2x.png 2x" alt="Модель">
+          </picture>
+        </div>
+        <div class="preview__toggles toggles">
+          <button class="toggles__arrow toggles__arrow--left" type="button"
+                  aria-label="Предыдущий"></button>
+          <button class="toggles__arrow toggles__arrow--right" type="button"
+                  aria-label="Следующий"></button>
+        </div>
+      </section>
+
+      <section class="slider slider--models" id="participants"
+               data-block="participants">
+        <h2>Участники</h2>
+        <div class="slider__wrapper">
+          <button class="slider__slider-toggle slider__slider-toggle--left slider-toggle slider-toggle--left"
+                  type="button"></button>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Классика, нуар</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-1@1x.webp 1x, img/model-1@2x.webp 2x">
+                        <img src="img/model-1@1x.jpg"
+                             srcset="img/model-1@2x.jpg 2x" alt="Модель №1"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-1@1x.webp 1x, img/stylist-1@2x.webp 2x">
+                          <img src="img/stylist-1@1x.png"
+                               srcset="img/stylist-1@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Дэвид Робинсон</h3>
+                      <div class="model__bottom-line">
+                        <p>США</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Авангард, имрессионизм</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-2@1x.webp 1x, img/model-2@2x.webp 2x">
+                        <img src="img/model-2@1x.jpg"
+                             srcset="img/model-2@2x.jpg 2x" alt="Модель №2"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-2@1x.webp 1x, img/stylist-2@2x.webp 2x">
+                          <img src="img/stylist-2@1x.png"
+                               srcset="img/stylist-2@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Келли Макдональд</h3>
+                      <div class="model__bottom-line">
+                        <p>Ирландия</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Электрика, экотренд</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-3@1x.webp 1x, img/model-3@2x.webp 2x">
+                        <img src="img/model-3@1x.jpg"
+                             srcset="img/model-3@2x.jpg 2x" alt="Модель №3"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-3@1x.webp 1x, img/stylist-3@2x.webp 2x">
+                          <img src="img/stylist-3@1x.png"
+                               srcset="img/stylist-3@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Костас Папаниколау</h3>
+                      <div class="model__bottom-line">
+                        <p>Греция</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Классика, нуар</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-1@1x.webp 1x, img/model-1@2x.webp 2x">
+                        <img src="img/model-1@1x.jpg"
+                             srcset="img/model-1@2x.jpg 2x" alt="Модель №1"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-1@1x.webp 1x, img/stylist-1@2x.webp 2x">
+                          <img src="img/stylist-1@1x.png"
+                               srcset="img/stylist-1@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Дэвид Робинсон</h3>
+                      <div class="model__bottom-line">
+                        <p>США</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Авангард, имрессионизм</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-2@1x.webp 1x, img/model-2@2x.webp 2x">
+                        <img src="img/model-2@1x.jpg"
+                             srcset="img/model-2@2x.jpg 2x" alt="Модель №2"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-2@1x.webp 1x, img/stylist-2@2x.webp 2x">
+                          <img src="img/stylist-2@1x.png"
+                               srcset="img/stylist-2@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Келли Макдональд</h3>
+                      <div class="model__bottom-line">
+                        <p>Ирландия</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide model">
+                <div class="model__wrapper">
+                  <div class="model__top-container">
+                    <div class="model__direction">
+                      <p>Электрика, экотренд</p>
+                    </div>
+                    <div class="model__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/model-3@1x.webp 1x, img/model-3@2x.webp 2x">
+                        <img src="img/model-3@1x.jpg"
+                             srcset="img/model-3@2x.jpg 2x" alt="Модель №3"
+                             width="448" height="580">
+                      </picture>
+                    </div>
+                    <div class="model__toggles toggles toggles--model">
+                      <button class="toggles__arrow toggles__arrow--left"
+                              type="button"
+                              aria-label="Предыдущее фото"></button>
+                      <button class="toggles__arrow toggles__arrow--right"
+                              type="button"
+                              aria-label="Следующее фото"></button>
+                    </div>
+                  </div>
+                  <div class="model__info">
+                    <div class="model__info-wrapper">
+                      <div class="model__stylist-photo">
+                        <picture>
+                          <source type="image/webp"
+                                  srcset="img/stylist-3@1x.webp 1x, img/stylist-3@2x.webp 2x">
+                          <img src="img/stylist-3@1x.png"
+                               srcset="img/stylist-3@2x.png 2x"
+                               alt="Дэвид Робинсон" width="64" height="64">
+                        </picture>
+                      </div>
+                      <h3>Костас Папаниколау</h3>
+                      <div class="model__bottom-line">
+                        <p>Греция</p>
+                        <ul
+                            class="model__social-list social-list social-list--small">
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш инстаграмм">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-insta" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш фейсбук">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use xlink:href="./img/icons.svg#icon-fb" />
+                              </svg>
+                            </a>
+                          </li>
+                          <li class="social-list__item">
+                            <a href="#" class="social-list__link"
+                               aria-label="Наш твиттер">
+                              <svg width="44" height="44" viewBox="0 0 44 44">
+                                <use
+                                     xlink:href="./img/icons.svg#icon-twitter" />
+                              </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="slider__slider-toggle slider__slider-toggle--right slider-toggle slider-toggle--right"
+                  type="button"></button>
+          <div class="slider__pagination swiper-pagination"></div>
+        </div>
+        <div class="number">
+          <div class="number__wrapper">
+            <div class="number__count">
+              <span class="number__numeral number__numeral--active">02</span>
+              <span class="number__numeral">/</span>
+              <span class="number__numeral">05</span>
+            </div>
+            <div class="number__toggles">
+              <a class="number__toggle number__toggle--left" href="#jury"
+                 aria-label="следующий блок"></a>
+              <a class="number__toggle number__toggle--right" href="#preview"
+                 aria-label="предыдущий блок"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider slider--jury" id="jury" data-block="jury">
+        <h2>Судьи BFW<sup>'</sup><sub>19</sub></h2>
+        <div class="slider__wrapper">
+          <button class="slider__slider-toggle slider__slider-toggle--left slider-toggle slider-toggle--left"
+                  type="button" aria-label="предыдущий слайд"></button>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-1@1x.webp 1x, img/referee-1@2x.webp 2x">
+                        <img src="img/referee-1@1x.jpg"
+                             srcset="img/referee-1@2x.jpg 2x" alt="Судья №1"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Давис Бертанс</h3>
+                        <p>Литва</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Владелец модного дома в Литве.<br>Судья показов young
+                          blood Vilnus.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-2@1x.webp 1x, img/referee-2@2x.webp 2x">
+                        <img src="img/referee-2@1x.jpg"
+                             srcset="img/referee-2@2x.jpg 2x" alt="Судья №2"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Георгий Рубильников</h3>
+                        <p>Россия</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Дизайнер, работающий с Gucci, владелец салона в
+                          Санкт-Петербурге.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-3@1x.webp 1x, img/referee-3@2x.webp 2x">
+                        <img src="img/referee-3@1x.jpg"
+                             srcset="img/referee-3@2x.jpg 2x" alt="Судья №3"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Давид Гегенешвили</h3>
+                        <p>Грузия</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Создатель Georgia Runway Project. Главный судья на
+                          young blood Moscow.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-1@1x.webp 1x, img/referee-1@2x.webp 2x">
+                        <img src="img/referee-1@1x.jpg"
+                             srcset="img/referee-1@2x.jpg 2x" alt="Судья №1"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Давис Бертанс</h3>
+                        <p>Литва</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Владелец модного дома в Литве.<br>Судья показов young
+                          blood Vilnus.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-2@1x.webp 1x, img/referee-2@2x.webp 2x">
+                        <img src="img/referee-2@1x.jpg"
+                             srcset="img/referee-2@2x.jpg 2x" alt="Судья №2"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Георгий Рубильников</h3>
+                        <p>Россия</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Дизайнер, работающий с Gucci, владелец салона в
+                          Санкт-Петербурге.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide judge">
+                <div class="judge__wrapper">
+                  <div class="judge__container">
+                    <div class="judge__photo">
+                      <picture>
+                        <source type="image/webp"
+                                srcset="img/referee-3@1x.webp 1x, img/referee-3@2x.webp 2x">
+                        <img src="img/referee-3@1x.jpg"
+                             srcset="img/referee-3@2x.jpg 2x" alt="Судья №3"
+                             width="454" height="382">
+                      </picture>
+                    </div>
+                    <div class="judge__info">
+                      <div class="judge__top-line">
+                        <h3>Давид Гегенешвили</h3>
+                        <p>Грузия</p>
+                      </div>
+                      <div class="judge__description">
+                        <p>Создатель Georgia Runway Project. Главный судья на
+                          young blood Moscow.</p>
+                      </div>
+                      <ul
+                          class="judge__social-list social-list social-list--small">
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш инстаграмм">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-insta" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш фейсбук">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-fb" />
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="social-list__item">
+                          <a href="#" class="social-list__link"
+                             aria-label="Наш твиттер">
+                            <svg width="44" height="44" viewBox="0 0 44 44">
+                              <use xlink:href="./img/icons.svg#icon-twitter" />
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="slider__slider-toggle slider__slider-toggle--right slider-toggle slider-toggle--right"
+                  type="button" aria-label="следующий слайд"></button>
+          <div class="slider__pagination swiper-pagination"></div>
+        </div>
+        <div class="number">
+          <div class="number__wrapper">
+            <div class="number__count">
+              <span class="number__numeral number__numeral--active">03</span>
+              <span class="number__numeral">/</span>
+              <span class="number__numeral">05</span>
+            </div>
+            <div class="number__toggles">
+              <a class="number__toggle number__toggle--left" href="#tickets"
+                 aria-label="следующий блок"></a>
+              <a class="number__toggle number__toggle--right"
+                 href="#participants" aria-label="предыдущий блок"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tickets" id="tickets" data-block="tickets">
+        <h2>Билеты</h2>
+        <div class="tickets__wrapper">
+          <div class="tickets__info">
+            <div class="tickets__container">
+              <p>Вы можете приобрести билеты на Blade Fashion Week на нашем
+                сайте: достаточно выбрать один из типов билетов (в зависимости
+                от предлагаемых опций) <br>и произвести оплату онлайн. Мы
+                принимаем оплату:</p>
+              <ul class="tickets__payments payments">
+                <li class="payments__item">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="img/visa@1x.webp 1x, img/visa@2x.webp 2x">
+                    <img src="img/visa@1x.png" srcset="img/visa@2x.png 2x"
+                         alt="visa" width="47" height="15">
+                  </picture>
+                </li>
+                <li class="payments__item">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="img/pay@1x.webp 1x, img/pay@2x.webp 2x">
+                    <img src="img/pay@1x.png" srcset="img/pay@2x.png 2x"
+                         alt="visa" width="44" height="21">
+                  </picture>
+                </li>
+                <li class="payments__item">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="img/master@1x.webp 1x, img/master@2x.webp 2x">
+                    <img src="img/master@1x.png" srcset="img/master@2x.png 2x"
+                         alt="mastercard" width="35" height="27">
+                  </picture>
+                </li>
+                <li class="payments__item">
+                  <picture>
+                    <source type="image/webp"
+                            srcset="img/paypal@1x.webp 1x, img/paypal@2x.webp 2x">
+                    <img src="img/paypal@1x.png" srcset="img/paypal@2x.png 2x"
+                         alt="paypal" width="59" height="14">
+                  </picture>
+                </li>
+              </ul>
+            </div>
+            <div class="tickets__container tickets__container--bottom">
+              <p>По всем вопросам, связанным с покупокй, возвратом или
+                предлагаемыми опциями, вы можете обратиться к нашему
+                консультанту по номеру:</p>
+              <a href="#">+7&nbsp;(924)&nbsp;456&nbsp;78&nbsp;90</a>
+            </div>
+          </div>
+          <ul class="tickets__table tickets-table">
+            <li
+                class="tickets-table__tr tickets-table__tr--without-title tickets-table__tr--head">
+              <div class="tickets-table__td">
+                <p>Зритель</p>
+                <ul class="rate rate--1">
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                </ul>
+              </div>
+              <div class="tickets-table__td">
+                <p>Оптимум</p>
+                <ul class="rate rate--2">
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                </ul>
+              </div>
+              <div class="tickets-table__td">
+                <p>vip</p>
+                <ul class="rate rate--3">
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                  <li class="rate__item">
+                    <img src="img/star.svg" alt="star" width="16" height="16">
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Пакет гостя форума</p>
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Церемония открытия</p>
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Вход на показ</p>
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Возможность голосовать</p>
+              </div>
+              <div class="tickets-table__td"></div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Доступ за кулисы</p>
+              </div>
+              <div class="tickets-table__td"></div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr">
+              <div class="tickets-table__td tickets-table__td--main">
+                <p>Экскюзив от кутюрье</p>
+              </div>
+              <div class="tickets-table__td"></div>
+              <div class="tickets-table__td"></div>
+              <div class="tickets-table__td">
+                <img src="img/mark.svg" alt="включено" width="13" height="10">
+              </div>
+            </li>
+            <li class="tickets-table__tr tickets-table__tr--without-title">
+              <div class="tickets-table__td">
+                <a href="#" class="button-buy" data-status="viewer">купить</a>
+              </div>
+              <div class="tickets-table__td">
+                <a href="#x" class="button-buy button-buy--purple"
+                   data-status="optimum">купить</a>
+              </div>
+              <div class="tickets-table__td">
+                <a href="#" class="button-buy" data-status="vip">купить</a>
+              </div>
+            </li>
+          </ul>
+          <div class="number">
+            <div class="number__wrapper">
+              <div class="number__count">
+                <span class="number__numeral number__numeral--active">04</span>
+                <span class="number__numeral">/</span>
+                <span class="number__numeral">05</span>
+              </div>
+              <div class="number__toggles">
+                <a class="number__toggle number__toggle--left" href="#contacts"
+                   aria-label="следующий блок"></a>
+                <a class="number__toggle number__toggle--right" href="#jury"
+                   aria-label="предыдущий блок"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tickets__popup popup popup--tickets">
+          <button class="popup__close" type="button"
+                  aria-label="Закрыть форму"></button>
+          <div class="popup__logo">
+            <img src="img/blade.svg" alt="Blade" width="180" height="42">
+          </div>
+          <div class="popup__open-container">
+            <div class="popup__title">
+              <p>Чтобы приобрести билет, заполните форму ниже. Мы свяжемся с
+                вами по вопросу оплаты.</p>
+            </div>
+            <form class="popup__form form form--tickets" action="#"
+                  name="tickets" method="OST">
+              <div class="form__area form__area--name">
+                <label for="tickets-name">Имя</label>
+                <input type="text" name="tickets-name" id="tickets-name"
+                       placeholder="Введите имя" required>
+                <div class="form__invalid">
+                  <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+                </div>
+              </div>
+              <div class="form__area form__area--mail">
+                <label for="tickets-mail">email</label>
+                <input type="email" name="tickets-mail" id="tickets-mail"
+                       placeholder="Введите e-mail" required">
+                <div class="form__invalid">
+                  <p>Недопустимое значение поля. Пожалуйста, повторите ввод.</p>
+                </div>
+              </div>
+              <div class="form__radio">
+                <p>Статус билета</p>
+                <ul class="form__radio-list">
+                  <li class="form__radio-item">
+                    <input type="radio" name="tickets-status"
+                           id="tickets-viewer" value="viewer">
+                    <label for="tickets-viewer">Зритель</label>
+                  </li>
+                  <li class="form__radio-item">
+                    <input type="radio" name="tickets-status"
+                           id="tickets-optimum" value="optimum">
+                    <label for="tickets-optimum">Оптимум</label>
+                  </li>
+                  <li class="form__radio-item">
+                    <input type="radio" name="tickets-status" id="tickets-vip"
+                           value="vip">
+                    <label for="tickets-vip">VIP</label>
+                  </li>
+                </ul>
+              </div>
+              <button class="form__btn-submit" type="submit">бронь
+                билета</button>
+            </form>
+          </div>
+          <div class="popup__thanks">
+            <div class="popup__title">
+              <p>Спасибо за интерес к Blade Fashion Week 2019! Мы уже готовим
+                ваше персональное приглашение.<br>Скоро сообщим о всех деталях.
+              </p>
+            </div>
+            <button class="popup__thanks-btn btn-small"
+                    type="button">Понятно</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts" data-block="contacts">
+        <h2>Свяжитесь с нами</h2>
+        <div class="contacts__wrapper">
+          <div class="contacts__info">
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <h3>Офис продаж</h3>
+                <p>363561, Москва ул. Пушкина 17/1</p>
+              </li>
+              <li class="contacts__item contacts__item--call">
+                <h3>Для связи</h3>
+                <ul class="contacts__links">
+                  <li class="contacts__links-item contacts__links-item--tel">
+                    <a href="#">+7&nbsp;(924)&nbsp;456&nbsp;78&nbsp;90</a>
+                  </li>
+                  <li class="contacts__links-item">
+                    <a href="mailto:bfw@gmail.com">bfw@gmail.com</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="contacts__item contacts__item--social">
+                <h3>Подпишитесь</h3>
+                <ul
+                    class="contacts__social-list social-list social-list--small">
+                  <li class="social-list__item">
+                    <a href="#" class="social-list__link"
+                       aria-label="Наш фейсбук">
+                      <svg width="44" height="44" viewBox="0 0 44 44">
+                        <use xlink:href="./img/icons.svg#icon-fb" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a href="#" class="social-list__link"
+                       aria-label="Наш инстаграмм">
+                      <svg width="44" height="44" viewBox="0 0 44 44">
+                        <use xlink:href="./img/icons.svg#icon-insta" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a href="#" class="social-list__link"
+                       aria-label="Наш твиттер">
+                      <svg width="44" height="44" viewBox="0 0 44 44">
+                        <use xlink:href="./img/icons.svg#icon-twitter" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="contacts__map">
+              <picture>
+                <source type="image/webp" media="(min-width: 1024px)"
+                        srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
+                <source media="(min-width: 1024px)"
+                        srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
+                <source media="(min-width: 768px)"
+                        srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
+                <source type="image/webp"
+                        srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
+                <img src="img/map-mobile@1x.jpg"
+                     srcset="img/map-mobile@2x.jpg 2x" alt="мы на карте"
+                     width="320" height="359">
+              </picture>
+            </div>
+          </div>
+          <div class="contacts__feedback feedback">
+            <div class="feedback__title">
+              <p>Остались вопросы?</p>
+              <p>Спросите нас! <br>Мы ответим!</p>
+            </div>
+            <a class="feedback__btn-open">задать вопрос</a>
+            <div class="feedback__wrapper">
+              <div class="feedback__title feedback__title--form">
+                <p>Остались вопросы?</p>
+                <p>Спросите нас! <br>Мы ответим!</p>
+              </div>
+              <button class="feedback__close" type="button"
+                      aria-label="Закрыть форму"></button>
+              <div class="feedback__logo">
+                <img src="img/blade.svg" alt="Blade" width="180" height="42">
+              </div>
+              <form class="feedback__form form form--contacts" action="#"
+                    name="feedback" method="post">
+                <div class="form__area form__area--name">
+                  <label for="tickets-name">Имя</label>
+                  <input type="text" name="feedback-name" id="feedback-name"
+                         placeholder="Введите имя" required>
+                  <div class="form__invalid">
+                    <p>Недопустимое значение поля. Пожалуйста, повторите ввод.
+                    </p>
+                  </div>
+                </div>
+                <div class="form__area form__area--mail">
+                  <label for="tickets-mail">email</label>
+                  <input type="email" name="feedback-mail" id="feedback-mail"
+                         placeholder="Введите e-mail" required>
+                  <div class="form__invalid">
+                    <p>Недопустимое значение поля. Пожалуйста, повторите ввод.
+                    </p>
+                  </div>
+                </div>
+                <div class="form__area form__area--textarea">
+                  <label for="feedback-message">сообщение</label>
+                  <textarea name="feedback-message" id="feedback-message"
+                            cols="30" rows="3" required
+                            placeholder="Задайте любой вопрос"></textarea>
+                  <div class="form__invalid">
+                    <p>Недопустимое значение поля. Пожалуйста, повторите ввод.
+                    </p>
+                  </div>
+                </div>
+                <button class="form__btn-small btn-small btn-small--short"
+                        type="submit">Отправить</button>
+              </form>
+              <div class="feedback__thanks-container">
+                <button class="feedback__close feedback__close--thanks"
+                        type="button" aria-label="Закрыть форму"></button>
+                <div class="feedback__thanks">
+                  <div class="feedback__title feedback__title--thanks">
+                    <p>Спасибо за ваш вопрос! Ваша заявка в работе. Мы ответим в
+                      течение дня обязательно, будьте на связи!</p>
+                  </div>
+                  <button class="feedback__thanks-btn btn-small"
+                          type="button">Понятно</button>
+                </div>
+              </div>
+              <div class="feedback__overlay"></div>
+            </div>
+          </div>
+        </div>
+        <div class="number">
+          <div class="number__wrapper">
+            <div class="number__count">
+              <span class="number__numeral number__numeral--active">05</span>
+              <span class="number__numeral">/</span>
+              <span class="number__numeral">05</span>
+            </div>
+            <div class="number__toggles">
+              <a class="number__toggle number__toggle--left"
+                 aria-label="следующий блок"></a>
+              <a class="number__toggle number__toggle--right" href="#tickets"
+                 aria-label="предыдущий блок"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="overlay"></div>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/nojs.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scrollPage.js"></script>
+    <script src="js/tickets.js"></script>
+    <script src="js/feedback.js"></script>
+    <script src="js/table.js"></script>
+  </body>
+
+</html>
